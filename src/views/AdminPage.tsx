@@ -27,7 +27,7 @@ const AdminPage = () => {
 
       const responseData = response.data;
 
-      alert(responseData.message);
+      alert(responseData);
     } catch (error) {
       alert(error);
       console.error(error);
